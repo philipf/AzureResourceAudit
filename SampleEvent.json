@@ -1,0 +1,52 @@
+{
+  "subject": "/subscriptions/fecb5f19-5121-40f1-b0be-30d093830e65/resourcegroups/rg-test-dev/providers/Microsoft.Storage/storageAccounts/statestevents002",
+  "eventType": "Microsoft.Resources.ResourceWriteSuccess",
+  "eventTime": "2020-04-28T05:22:00.6923244Z",
+  "id": "874cb5dc-9fb3-4f11-8fc2-d62af23c2790",
+  "data": {
+    "authorization": {
+      "scope": "/subscriptions/fecb5f19-5121-40f1-b0be-30d093830e65/resourceGroups/rg-test-dev/providers/Microsoft.Storage/storageAccounts/statestevents002",
+      "action": "Microsoft.Storage/storageAccounts/write",
+      "evidence": {
+        "role": "Subscription Admin"
+      }
+    },
+    "claims": {
+      "aud": "https://management.core.windows.net/",
+      "iss": "https://sts.windows.net/0937ec3f-a23f-4e50-8324-68a5eb9206c8/",
+      "iat": "1588048180",
+      "nbf": "1588048180",
+      "exp": "1588052080",
+      "http://schemas.microsoft.com/claims/authnclassreference": "1",
+      "aio": "AUQAu/8PAAAAZm4Gb9NjpGDcKMgz7AhYDtQeJuu+4xRd2hlHjf3e/1HZYqENSw0Zjo6NcKN7Irmzkomn0rqm5rCeFo+TtbImUg==",
+      "http://schemas.microsoft.com/claims/authnmethodsreferences": "pwd,mfa",
+      "appid": "04b07795-8ddb-461a-bbee-02f9e1bf7b46",
+      "appidacr": "0",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname": "Fourie",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname": "Philip",
+      "groups": "4ffb691d-cab9-4cb9-b620-0d780e988be2,82cd52ba-6545-428f-a490-d34f4628d677,5e8728d9-c49c-49e0-80c9-62369b592b58",
+      "ipaddr": "203.211.76.152",
+      "name": "Philip Fourie",
+      "http://schemas.microsoft.com/identity/claims/objectidentifier": "64ac4585-69b6-4ae4-a1f9-ee5ec6195957",
+      "puid": "10033FFF8BA6E388",
+      "http://schemas.microsoft.com/identity/claims/scope": "user_impersonation",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier": "_4XodMQi7mXI06Cy5YFgFAM9UaZHnqAKKAW0flInVlA",
+      "http://schemas.microsoft.com/identity/claims/tenantid": "0937ec3f-a23f-4e50-8324-68a5eb9206c8",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name": "philipf@agilebridge.co.za",
+      "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn": "philipf@agilebridge.co.za",
+      "uti": "8SRjzBn-dkuO3StkaGwOAA",
+      "ver": "1.0",
+      "wids": "62e90394-69f5-4237-9190-012177145e10"
+    },
+    "correlationId": "94468095-a917-4670-a284-383329987304",
+    "resourceProvider": "Microsoft.Storage",
+    "resourceUri": "/subscriptions/fecb5f19-5121-40f1-b0be-30d093830e65/resourcegroups/rg-test-dev/providers/Microsoft.Storage/storageAccounts/statestevents002",
+    "operationName": "Microsoft.Storage/storageAccounts/write",
+    "status": "Succeeded",
+    "subscriptionId": "fecb5f19-5121-40f1-b0be-30d093830e65",
+    "tenantId": "0937ec3f-a23f-4e50-8324-68a5eb9206c8"
+  },
+  "dataVersion": "2",
+  "metadataVersion": "1",
+  "topic": "/subscriptions/fecb5f19-5121-40f1-b0be-30d093830e65"
+}
