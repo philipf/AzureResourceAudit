@@ -17,7 +17,7 @@ namespace EventGridFunc
         [FunctionName("AuditSubscriptionEvents")]
         public static async void Run([EventGridTrigger]EventGridEvent eventGridEvent, ILogger log)
         {
-            log.LogDebug(eventGridEvent.Data.ToString());
+            log.LogDebug(eventGridEvent.Data?.ToString());
 
             try
             {
